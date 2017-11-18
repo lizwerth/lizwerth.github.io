@@ -45,7 +45,7 @@ a {
 	color: #0099ff; 
 	text-decoration: none;
 }
-nav a{
+nav {
 	margin: auto;
 	font-family: 'PT Serif', sans-serif;
 	text-transform: uppercase;
@@ -53,8 +53,7 @@ nav a{
 	font-size: 1em;
 	letter-spacing: 3px;
 	text-align: center;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin: 10px;
 	padding: 40px 20 0 20;
 }
 main {
