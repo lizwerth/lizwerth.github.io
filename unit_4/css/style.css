@@ -10,10 +10,11 @@ body {
 	font-weight: 300;
 	font-size: 16px; /*1em = 16px*/
 	color: #333333;
-	line-height: 1.3;
+	line-height: 1.4;
 }
 header {
-	padding: 20px;
+	background:url("images/mainimage_new.jpg")
+	background-size: 100%;
 }
 h1 {
 	color: #333333;
@@ -21,6 +22,17 @@ h1 {
 	text-align:center;
 	font-weight: 700;
 	font-size: 2em;
+}
+h2 {
+	font-family: 'PT Serif', serif;
+	text-transform: uppercase;
+	font-size: 1.25em;
+}
+
+h3 {
+	font-family: 'PT Serif', serif;
+	text-transform: lowercase;
+	font-size: 1.125em;
 }
 /*hr{
 	border:none;
@@ -33,18 +45,19 @@ a {
 	color: #0099ff; 
 	text-decoration: none;
 }
-nav a {
+nav {
 	margin: auto;
 	font-family: 'PT Serif', sans-serif;
-	color: #00000;
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 1em;
-	letter-spacing: 2px;
-	text-align:center;
+	letter-spacing: 3px;
+	text-align: center;
+	margin: 10px;
+	padding: 40px 20 0 20;
 }
 main {
-	padding: 20px;
+	padding: 0px 20 20 20;
 }
 footer {
 	background-color: #cccccc;
@@ -54,32 +67,18 @@ footer {
 	height:40px;
 	padding:10px 0;
 }
-#lander{
-	background:url("images/mainimage_new.jpg")
-	background-size: 100%;
+span {
+	font-weight: 700;
+}
+#quadrant {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
-#quadrant {
-	width: 20%;
-}
-#veg {
-	width: 5%;
-}
-#month {
-	font-family: 'PT Serif', sans-serif;
-	font-weight: 400;
+#contact {
 	text-transform: uppercase;
+	line-height: 2.25;
 }
-#okra{
-	font-family: 'Miniver', cursive;	
+#book {
+	font-family: 'Miniver', display;
+	color: #fff;
 }
-/*}
-.navlinks{
-	font-family: 'Barlow', sans-serif;
-	color: #00000;
-	text-transform: uppercase;
-	font-weight: 300;
-	font-size: 1em;
-	letter-spacing: 2px;
-}*/
