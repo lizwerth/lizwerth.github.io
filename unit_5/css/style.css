@@ -3,82 +3,116 @@
 * {
 	padding: 0;
 	margin: 0;
-	box-sizing:border-box;
+	box-sizing: border-box;
 }
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 16px; /*1em = 16px*/
 	color: #333333;
-	line-height: 1.4;
+	line-height: 1.5;
 }
-header {
-	background:url("images/mainimage_new.jpg")
-	background-size: 100%;
-}
-h1 {
-	color: #333333;
-	text-transform: uppercase;
-	text-align:center;
-	font-weight: 700;
-	font-size: 2em;
-}
-h2 {
-	font-family: 'PT Serif', serif;
-	text-transform: uppercase;
-	font-size: 1.25em;
-}
-
-h3 {
-	font-family: 'PT Serif', serif;
-	text-transform: lowercase;
-	font-size: 1.125em;
-}
-/*hr{
-	border:none;
-	height:2px;
-	background-color: #0099ff;
-	margin-right: 20px;
-	width:2em auto;
-}*/
 a {
-	color: #0099ff; 
+	color: #0099ff;
 	text-decoration: none;
 }
-nav {
-	margin: auto;
-	font-family: 'PT Serif', sans-serif;
-	text-transform: uppercase;
-	font-weight: 400;
-	font-size: 1em;
-	letter-spacing: 3px;
-	text-align: center;
-	margin: 10px;
-	padding: 40px 20 0 20;
+.nav {
+    list-style:none;
+    margin:0;
+    padding:0;
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+    text-align:center;
+    letter-spacing: 3px;
+    font-size: 1em;
 }
-main {
-	padding: 0px 20 20 20;
+.nav li {
+    display:inline;
 }
-footer {
-	background-color: #cccccc;
-	padding: 20px;
-	text-align: center;
-	text-transform: uppercase;
-	height:40px;
-	padding:10px 0;
+.nav a {
+    display:inline-block;
+    padding:10px;
 }
 span {
 	font-weight: 700;
 }
-#quadrant {
+header {
+/*	padding: 10px 0;*/*/
+	background-image: url("mainimage_new.jpg");
+	background-size: 100%;
+}
+h1 {
+	color: #333333;
+	text-align: center;
+	font-size: 2.1em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+h2 {
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+h3 {
+	font-family: 'PT Serif', serif;
+    text-transform: lowercase;
+    font-style: .75em;
+}
+h4, h5, h6 {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-weight: 700;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#topper {
+    position: relative;
+    width: 100%;
+    background-size: 1165px;
+}
+/*#topper h1 {
+    position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #333333;
+    padding: 10px;
+}*/
+#quadrant{
+	width: 488.5px;
+}
+#about{
+/*	float: right;*/
+	width: 600px;
+}
+#reserve {
+/*	clear: both;*/
+	font-family: 'Miniver', decorative;
+	font-size: 2em;
+}
+#okra{
+	size: 20%;
+}
+#recipe{
+	width: 400px;
 }
 #contact {
-	text-transform: uppercase;
-	line-height: 2.25;
-}
-#book {
 	font-family: 'Miniver', display;
 	color: #fff;
+}
+#table {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-size: 1em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#goosey {
+	width: 15%;
+}
+#wrapper {
+	width: 1165px;
+	margin-left: auto;
+	margin-right: auto;
 }
