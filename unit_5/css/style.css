@@ -26,6 +26,10 @@ a {
     text-align:center;
     letter-spacing: 3px;
     font-size: 1em;
+/*  background-color: ##E8C66A;
+    border: 1px black solid;
+    padding: 20px;*/
+}
 }
 .nav li {
     display:inline;
@@ -41,7 +45,10 @@ header {
 /*	padding: 10px 0;*/*/
 	background-image: url("mainimage_new.jpg");
 	background-size: 100%;
-}
+/*	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}*/
 h1 {
 	color: #333333;
 	text-align: center;
@@ -80,10 +87,16 @@ h4, h5, h6 {
 }*/
 #quadrant{
 	width: 488.5px;
+/*	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;*/
 }
 #about{
 /*	float: right;*/
 	width: 600px;
+/*	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;*/
 }
 #reserve {
 /*	clear: both;*/
@@ -115,4 +128,12 @@ h4, h5, h6 {
 	width: 1165px;
 	margin-left: auto;
 	margin-right: auto;
+/*	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;*/
+}
+footer{
+/*	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;*/
 }
