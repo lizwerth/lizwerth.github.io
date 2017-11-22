@@ -119,7 +119,7 @@ aside {
 }
 
 #quadrant {
-	width: 488.5px;
+	width: 60%;
 	background-color: #E89C6C;
     border: 1px black solid;
     margin-top: 10px;
@@ -127,8 +127,8 @@ aside {
 }
 
 #about {
-	float: right;
-	width: 600px;
+	float: left;
+	width: 40%;
 	margin-top: 5px;
 	margin-bottom: 10px;
 	background-color: #FFC675;
@@ -154,7 +154,7 @@ aside {
 }
 
 .recipe {
-	float: right;
+	float: left;
 	width: 400px;
 }
 
