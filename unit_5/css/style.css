@@ -15,36 +15,23 @@ body {
 }
 
 a {
-	color: #333333;
+	color: #23a7e0;
 	text-decoration: none;
 }
-
-.nav {
-    list-style:none;
-    margin:0;
-    padding:0;
+nav {
     font-family: 'PT Serif', serif;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
-    font-size: 1em;
-  	background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
-    margin-bottom: 10px;
 }
-
-.nav li {
-    display:inline;
-}
-
-.nav a {
+nav a {
     display:inline-block;
-    padding:10px;
+    padding: 1em;
 }
 
 nav a:hover {
-	background-color: #0099ff;;
+	background-color: #23a7e0;
+	color: #fff;
 }
 
 span {
@@ -59,21 +46,21 @@ header {
     border: 1px black solid;
     padding: 20px;
 }
-
-header .header-content {
-	position: relative;
+.header-content {
+    background: url(../images/mainimage_new.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    padding-top: 7em;
 }
 
 h1 {
 	color: #333333;
 	text-align: center;
-	font-size: 2.1em;
+	font-size: 2em;
 	font-weight: 700;
 	text-transform: uppercase;
-	position: absolute;
-	transform: translate(0%, -50%);
-    top: 50%;
-    color: #fff;	
+	color: #fff;
 }
 
 h2 {
@@ -127,15 +114,16 @@ aside {
 }
 
 #about {
-	float: right;
-	width: 600px;
-	margin-top: 5px;
-	margin-bottom: 10px;
-	background-color: #FFC675;
-    border: 1px black solid;
-    padding: 20px;
+	width: 1200px;
+	margin: auto;
 }
-
+#about > * {
+	float:left;
+	width:50%;
+}
+#about div {
+	padding: 4em 0 0 4em;
+}
 .reserve {
 	clear: both;
 	background-image: url("tableresrve.jpg");
@@ -194,6 +182,15 @@ aside {
 
 footer{
 	background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+footer > * {
+	display:inline-block;
+}
+.clearfix:after {
+	display:block;
+	clear:both;
+	content:"";
 }
