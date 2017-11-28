@@ -1,44 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Miniver|Open+Sans:300,700|PT+Serif:400i');
 
-* {
+*{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 
-body {
+body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 16px; /*1em = 16px*/
 	color: #333333;
-	line-height: 1.5;
+	line-height: 1.65;
 }
 
-a {
+a{
 	color: #23a7e0;
 	text-decoration: none;
 }
-nav {
+nav{
     font-family: 'PT Serif', serif;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
 }
-nav a {
+nav a{
     display:inline-block;
     padding: 1em;
 }
 
-nav a:hover {
+nav a:visited{
+	color: #23a7e0;
+}
+
+nav a:hover{
 	background-color: #23a7e0;
 	color: #fff;
 }
 
-span {
+nav a:active{
+	color: #23a7e0;
+}
+
+span{
 	font-weight: 700;
 }
 
-header {
+header{
 /*	padding: 10px 0;*/
 	background-image: url("mainimage_new.jpg");
 	background-size: 100%;
@@ -46,15 +54,15 @@ header {
     border: 1px black solid;
     padding: 20px;
 }
-.header-content {
+.header-content{
     background: url(../images/mainimage_new.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
-    padding-top: 7em;
+    padding-top: 11em;
 }
 
-h1 {
+h1{
 	color: #333333;
 	text-align: center;
 	font-size: 2em;
@@ -63,58 +71,24 @@ h1 {
 	color: #fff;
 }
 
-h2 {
+h2{
     font-family: 'PT Serif', serif;
     text-transform: uppercase;
     font-size: 1.25em;
 }
 
-h3 {
+h3{
 	font-family: 'PT Serif', serif;
     text-transform:lowercase;
     font-style: .75em;
 }
-
-h4, h5 {
+h4 h5{
 	font-family: 'Open Sans', sans-serif;
-	font-weight:700;
-	font-size:16px;
-	text-transform:uppercase;
+    text-transform:uppercase;
+    font-style: .75em;
 }
 
-h6 {
-	font-family: 'Open Sans', sans-serif;
-	font-size:16px;
-	text-transform:uppercase;
-}
-
-main {
-	float: left;
-	width: 800px;
-}
-
-aside {
-	padding-top: 20px;
-	float: right;
-	width: 320px;
-}
-
-#topper {
-    position:relative;
-    width: 100%;
-    background-size: 1165px;
-}
-
-#quadrant {
-	width: 60%;
-	background-color: #E89C6C;
-    border: 1px black solid;
-    margin-top: 10px;
-    padding: 40px;
-}
-
-#about {
-<<<<<<< HEAD
+#about{
 	float: left;
 	width: 40%;
 	margin-top: 5px;
@@ -122,53 +96,64 @@ aside {
 	background-color: #FFC675;
     border: 1px black solid;
     padding: 20px;
-=======
 	width: 1200px;
 	margin: auto;
 }
-#about > * {
+#about > *{
 	float:left;
 	width:50%;
 }
-#about div {
+#about div{
 	padding: 4em 0 0 4em;
->>>>>>> e4d0228cb3bf054c0753dff0665108c3250be0d8
 }
-.reserve {
-	clear: both;
-	background-image: url("tableresrve.jpg");
-	background-size: 100%;
-	position: relative;
-}
-
-.reserve p{
-	position: absolute;
-	font-family: 'Miniver', decorative;
-	font-size: 2em;
-    color: #fff;
-    text-align: center;
-    padding-top: 30px;
-    margin-top: 20px;
-}
-
-.recipe {
+.reserve{
 	float: left;
-	width: 400px;
+    background-image: url(../images/tableresrve.jpg);
+    background-size: cover;
+    width: 30%;
+    background-repeat: no-repeat;
+}
+#booking_content{
+	font-family: 'Miniver', decorative;
+	font-size: 1em;
+	text-transform:lowercase;
+	color: #23a7e0;
+	display: block;
+}
+#reserve_content{
+	font-family: 'Miniver', decorative;
+	text-transform:lowercase;
+	font-size: 1em;
+	color: #fff;
+	display: block;
+}
+.recipe{
+	float:left;
+	width: 33%;
 }
 
 #okra{
 	size: 20%;
 }
 
-.table {
-	background-image: url("table_photo.jpg");
-	background-size: 100%;
-	position: relative;
+.hours{
+	float:left;
+	width: 33%;
+	display: block;
+}
+
+.table{
+	clear: both;
+	background-image: url(../images/table_photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
 }
 
 .table p{
 	position: absolute;
-/*	transform: translate(0%, -50%);*/
+	transform: translate(0%, -50%);
 	color: #000;
 	text-align: center;
 	font-size: 1em;
@@ -181,13 +166,10 @@ aside {
 	padding: 20px, 0, 20px, 0;
 }
 
-#wrapper {
+.wrapper{
 	width: 1165px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
 }
 
 footer{
